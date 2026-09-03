@@ -1,0 +1,1204 @@
+﻿<!doctype html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+   FacturaBot AI — Facturación Electrónica DIAN por WhatsApp en Segundos |
+   Colombia
+  </title>
+  <meta
+   name="description"
+   content="FacturaBot AI emite tu factura electrónica válida ante la DIAN en segundos por WhatsApp. Solo 4 datos. Integrado con Matías API. CUFE, PDF, XML y QR al instante."
+  />
+  <meta
+   property="og:title"
+   content="FacturaBot AI — Facturación Electrónica DIAN por WhatsApp"
+  />
+  <meta
+   property="og:description"
+   content="Emite facturas electrónicas válidas ante la DIAN en segundos. Solo por WhatsApp."
+  />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0f19" />
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+ </head>
+ <body>
+  <header class="navbar" id="top">
+   <div class="container nav-inner">
+    <a href="#inicio" class="brand" aria-label="FacturaBot AI inicio">
+     <span class="brand-mark" aria-hidden="true">
+      <i class="fa-solid fa-robot"></i>
+     </span>
+     <span class="brand-text">FacturaBot<span> AI</span></span>
+     <span class="brand-badge">OFICIAL</span>
+    </a>
+
+    <nav class="nav-links" id="main-nav" aria-label="Navegación principal">
+     <a href="#inicio" class="nav-link active">Inicio</a>
+     <a href="#funcionamiento" class="nav-link">Funcionamiento</a>
+     <a href="#ventajas" class="nav-link">Ventajas</a>
+     <a href="#asistente" class="nav-link">Asistente IA</a>
+     <a href="#contacto" class="nav-link">Contacto</a>
+    </nav>
+
+    <a
+     href="https://wa.me/573245516478"
+     target="_blank"
+     rel="noopener"
+     class="btn btn-primary nav-cta"
+    >
+     <i class="fa-solid fa-comment-dots"></i>
+     Iniciar en WhatsApp
+    </a>
+
+    <button
+     class="menu-toggle"
+     id="menu-toggle"
+     aria-label="Abrir menú"
+     aria-expanded="false"
+     aria-controls="main-nav"
+    >
+     <i class="fa-solid fa-bars icon-menu"></i>
+     <i class="fa-solid fa-xmark icon-close"></i>
+    </button>
+   </div>
+   <div class="mobile-panel" id="mobile-panel">
+    <nav class="mobile-nav">
+     <a href="#inicio" class="mobile-link">Inicio</a>
+     <a href="#funcionamiento" class="mobile-link">Funcionamiento</a>
+     <a href="#ventajas" class="mobile-link">Ventajas</a>
+     <a href="#asistente" class="mobile-link">Asistente IA</a>
+     <a href="#contacto" class="mobile-link">Contacto</a>
+     <a
+      href="https://wa.me/573245516478"
+      target="_blank"
+      rel="noopener"
+      class="btn btn-primary btn-block"
+     >
+      <i class="fa-solid fa-comment-dots"></i> Iniciar en WhatsApp
+     </a>
+    </nav>
+   </div>
+  </header>
+
+  <main>
+   <!-- HERO -->
+   <section id="inicio" class="hero">
+    <div class="hero-bg" aria-hidden="true">
+     <span class="orb orb-1"></span>
+     <span class="orb orb-2"></span>
+     <span class="orb orb-3"></span>
+    </div>
+    <div class="container hero-grid">
+     <div class="hero-content">
+      <div class="eyebrow">
+       <span class="dot"></span>
+       FACTURACIÓN ELECTRÓNICA DIAN • COLOMBIA
+       <span class="live">EN VIVO</span>
+      </div>
+
+      <h1 class="hero-title">
+       Factura electrónica<br />
+       <span class="accent">en segundos,</span><br />
+       sin salir de WhatsApp.
+      </h1>
+
+      <p class="hero-subtitle">
+       Para <strong>empresarios, independientes y PYMES</strong> en Colombia.
+       Emisión directa y válida ante la <strong>DIAN</strong> vía
+       <strong>Matías API</strong>. Solo envía 4 datos y recibe tu factura lista
+       para usar.
+      </p>
+
+      <div class="trust-row">
+       <span class="trust-pill"
+        ><i class="fa-solid fa-circle-check"></i> Transmisión oficial vía Matías
+        API</span
+       >
+       <span class="trust-pill ghost"
+        ><i class="fa-solid fa-shield-halved"></i> Cumplimiento DIAN</span
+       >
+       <span class="trust-pill ghost"
+        ><i class="fa-solid fa-lock"></i> Cifrado integral</span
+       >
+      </div>
+
+      <div class="hero-actions">
+       <a
+        href="https://wa.me/573245516478?text=Hola%20FacturaBot%20IA%20quiero%20generar%20mi%20factura%20electronica"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-primary btn-lg"
+       >
+        <i class="fa-solid fa-comment-dots"></i>
+        Iniciar en WhatsApp
+        <i class="fa-solid fa-arrow-right"></i>
+       </a>
+       <a href="#funcionamiento" class="btn btn-secondary btn-lg">
+        <i class="fa-solid fa-play"></i>
+        Ver cómo funciona
+       </a>
+      </div>
+
+      <div class="hero-meta">
+       <span><i class="fa-solid fa-users"></i> +1.200 empresas confían</span>
+       <span class="sep"></span>
+       <span><i class="fa-solid fa-star"></i> 4.9/5 satisfacción</span>
+      </div>
+     </div>
+
+     <div class="hero-visual">
+      <div class="phone-mockup" aria-hidden="true">
+       <div class="phone-frame">
+        <div class="phone-header">
+         <span class="avatar">
+          <i class="fa-solid fa-robot"></i>
+         </span>
+         <span class="phone-info">
+          <strong
+           >FacturaBot IA <i class="fa-solid fa-circle-check"></i
+          ></strong>
+          <small
+           ><span class="online-dot"></span> En línea • Responde en
+           segundos</small
+          >
+         </span>
+         <i class="fa-solid fa-ellipsis-vertical phone-menu"></i>
+        </div>
+
+        <div class="phone-body">
+         <span class="date-pill">HOY</span>
+
+         <div class="bubble bot">
+          <p>
+           ¡Hola! Soy <strong>FacturaBot IA</strong> 🤖, tu asistente oficial en
+           WhatsApp para generar facturas electrónicas a la DIAN.
+          </p>
+          <p class="muted">
+           Con sólo 4 datos te entrego <strong>CUFE • PDF • XML • QR</strong> en
+           segundos.
+          </p>
+          <span class="time"
+           >09:42 <i class="fa-solid fa-check-double"></i
+          ></span>
+         </div>
+
+         <div class="bubble user">
+          <p>
+           Juan Pérez SAS<br />
+           NIT 900.123.456-1<br />
+           juan.perez@gmail.com<br />
+           <strong>$ 2.450.000</strong>
+          </p>
+          <span class="time"
+           >09:43 <i class="fa-solid fa-check-double"></i
+          ></span>
+         </div>
+
+         <div class="bubble bot success">
+          <div class="success-head">
+           <i class="fa-solid fa-circle-check"></i> ¡Factura generada con éxito!
+          </div>
+          <div class="mini-grid">
+           <span class="mini-card"
+            ><i class="fa-solid fa-file-pdf"></i
+            ><span
+             ><strong>Factura.pdf</strong><small>248 KB</small></span
+            ></span
+           >
+           <span class="mini-card"
+            ><i class="fa-solid fa-file-code"></i
+            ><span><strong>Factura.xml</strong><small>12 KB</small></span></span
+           >
+          </div>
+          <div class="cufe-bar">
+           <span class="qr-abstract" aria-hidden="true">
+            <svg
+             viewBox="0 0 40 40"
+             width="36"
+             height="36"
+             role="img"
+             aria-label="QR"
+            >
+             <rect width="40" height="40" rx="4" fill="#ffffff" />
+             <rect x="4" y="4" width="10" height="10" rx="1.5" fill="#0b0f19" />
+             <rect x="6" y="6" width="6" height="6" rx="1" fill="#ffffff" />
+             <rect x="8" y="8" width="2" height="2" fill="#0b0f19" />
+             <rect
+              x="26"
+              y="4"
+              width="10"
+              height="10"
+              rx="1.5"
+              fill="#0b0f19"
+             />
+             <rect x="28" y="6" width="6" height="6" rx="1" fill="#ffffff" />
+             <rect x="30" y="8" width="2" height="2" fill="#0b0f19" />
+             <rect
+              x="4"
+              y="26"
+              width="10"
+              height="10"
+              rx="1.5"
+              fill="#0b0f19"
+             />
+             <rect x="6" y="28" width="6" height="6" rx="1" fill="#ffffff" />
+             <rect x="8" y="30" width="2" height="2" fill="#0b0f19" />
+             <rect x="18" y="6" width="4" height="2" fill="#0b0f19" />
+             <rect x="18" y="10" width="6" height="2" fill="#0b0f19" />
+             <rect x="18" y="14" width="4" height="2" fill="#0b0f19" />
+             <rect x="26" y="18" width="6" height="2" fill="#0b0f19" />
+             <rect x="18" y="20" width="10" height="2" fill="#0b0f19" />
+             <rect x="18" y="26" width="6" height="2" fill="#0b0f19" />
+             <rect x="28" y="26" width="4" height="2" fill="#0b0f19" />
+             <rect x="18" y="30" width="8" height="2" fill="#0b0f19" />
+             <rect x="30" y="30" width="4" height="4" fill="#10b981" />
+            </svg>
+           </span>
+           <span class="cufe-text">
+            <strong>CUFE: 8f3a•9c21</strong>
+            <small>Firma digital certificada ✓</small>
+           </span>
+           <i class="fa-solid fa-download"></i>
+          </div>
+          <span class="time"
+           >09:43 <i class="fa-solid fa-check-double"></i
+          ></span>
+         </div>
+        </div>
+
+        <div class="phone-input">
+         <span class="input-fake"
+          ><i class="fa-regular fa-face-smile"></i> Escribe un mensaje</span
+         >
+         <span class="send-fake"><i class="fa-solid fa-paper-plane"></i></span>
+        </div>
+       </div>
+
+       <div class="float-card float-1">
+        <span class="float-icon"><i class="fa-solid fa-bolt"></i></span>
+        <span><strong>2.3s</strong><small>tiempo promedio</small></span>
+       </div>
+       <div class="float-card float-2">
+        <span class="float-icon dark"
+         ><i class="fa-solid fa-shield-halved"></i
+        ></span>
+        <span
+         ><strong>100% DIAN</strong><small>Válida y verificable</small></span
+        >
+       </div>
+      </div>
+
+      <div class="hero-illustration" aria-hidden="true">
+       <svg
+        viewBox="0 0 520 220"
+        class="abstract-svg"
+        role="img"
+        aria-label="Ilustración factura digital"
+       >
+        <defs>
+         <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#10b981" stop-opacity="0.9" />
+          <stop offset="1" stop-color="#059669" stop-opacity="0.9" />
+         </linearGradient>
+        </defs>
+        <rect
+         x="12"
+         y="12"
+         width="220"
+         height="140"
+         rx="18"
+         fill="#1f2937"
+         stroke="#374151"
+        />
+        <rect
+         x="28"
+         y="32"
+         width="90"
+         height="10"
+         rx="5"
+         fill="#ffffff"
+         opacity="0.9"
+        />
+        <rect x="28" y="50" width="140" height="6" rx="3" fill="#6b7280" />
+        <rect x="28" y="62" width="120" height="6" rx="3" fill="#4b5563" />
+        <rect x="28" y="84" width="190" height="1.5" fill="#374151" />
+        <g transform="translate(28 98)">
+         <rect
+          width="56"
+          height="36"
+          rx="10"
+          fill="rgba(16,185,129,0.15)"
+          stroke="#10b981"
+         />
+         <text x="28" y="22" text-anchor="middle" font-size="16" fill="#10b981">
+          <tspan font-family="system-ui" font-weight="800">PDF</tspan>
+         </text>
+        </g>
+        <g transform="translate(92 98)">
+         <rect
+          width="56"
+          height="36"
+          rx="10"
+          fill="rgba(59,130,246,0.12)"
+          stroke="#3b82f6"
+         />
+         <text x="28" y="22" text-anchor="middle" font-size="14" fill="#60a5fa">
+          <tspan font-family="system-ui" font-weight="800">XML</tspan>
+         </text>
+        </g>
+        <g transform="translate(156 98)">
+         <rect
+          width="56"
+          height="36"
+          rx="10"
+          fill="rgba(16,185,129,0.12)"
+          stroke="#10b981"
+         />
+         <text x="28" y="22" text-anchor="middle" font-size="10" fill="#10b981">
+          <tspan font-family="system-ui" font-weight="800">CUFE</tspan>
+         </text>
+        </g>
+        <g transform="translate(300 18)">
+         <rect
+          width="200"
+          height="140"
+          rx="18"
+          fill="#0b0f19"
+          stroke="#1e293b"
+         />
+         <rect x="18" y="18" width="56" height="56" rx="12" fill="#ffffff" />
+         <rect x="22" y="22" width="14" height="14" rx="2" fill="#0b0f19" />
+         <rect x="22" y="38" width="14" height="14" rx="2" fill="#0b0f19" />
+         <rect x="38" y="22" width="14" height="14" rx="2" fill="#0b0f19" />
+         <rect x="40" y="40" width="10" height="10" rx="2" fill="#10b981" />
+         <rect x="56" y="22" width="14" height="4" fill="#0b0f19" />
+         <rect x="56" y="32" width="14" height="4" fill="#0b0f19" />
+         <rect x="56" y="48" width="14" height="4" fill="#374151" />
+         <rect x="22" y="56" width="14" height="4" fill="#374151" />
+         <rect x="40" y="56" width="30" height="4" fill="#0b0f19" />
+         <rect
+          x="88"
+          y="22"
+          width="92"
+          height="8"
+          rx="4"
+          fill="#ffffff"
+          opacity="0.9"
+         />
+         <rect x="88" y="36" width="72" height="6" rx="3" fill="#6b7280" />
+         <rect x="88" y="48" width="82" height="6" rx="3" fill="#4b5563" />
+         <g transform="translate(88 66)">
+          <rect width="92" height="28" rx="12" fill="url(#g1)" />
+          <text
+           x="46"
+           y="18"
+           text-anchor="middle"
+           font-size="11"
+           fill="#ffffff"
+           font-weight="800"
+           font-family="system-ui"
+          >
+           VERIFICADO DIAN
+          </text>
+         </g>
+        </g>
+       </svg>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- QUIEN ES -->
+   <section id="funcionamiento" class="section section-light">
+    <div class="container">
+     <div class="section-head">
+      <span class="kicker"
+       ><i class="fa-solid fa-sparkles"></i> Presentación Oficial</span
+      >
+      <h2>¿Quién es <span class="text-emerald">FacturaBot AI</span>?</h2>
+      <p>
+       Tu asistente financiero en WhatsApp. Sin plataformas, sin fricción, sin
+       complicaciones.
+      </p>
+     </div>
+
+     <div class="quote-card">
+      <span class="quote-accent"></span>
+      <div class="quote-inner">
+       <span class="quote-icon"><i class="fa-solid fa-robot"></i></span>
+       <div class="quote-content">
+        <span class="quote-label"
+         >Mensaje Oficial
+         <small
+          ><i class="fa-solid fa-comment-dots"></i> WhatsApp • Respuesta
+          inmediata</small
+         ></span
+        >
+        <blockquote>
+         “¡Hola! Soy FacturaBot IA 🤖, tu asistente oficial en WhatsApp para
+         generar facturas electrónicas a la DIAN de forma rápida y segura. Con
+         sólo enviarme cuatro datos (nombre o razón social, cédula/NIT, correo y
+         valor a facturar) me encargo de crear el CUFE, el PDF y el XML mediante
+         la integración con Matías API. Cuando quieras, envíame esos 4 datos y
+         generamos tu factura en segundos.”
+        </blockquote>
+        <span class="quote-foot"
+         ><i class="fa-solid fa-check-double"></i> Entrega automática • Sin
+         intervención manual</span
+        >
+       </div>
+      </div>
+     </div>
+
+     <div class="subhead">
+      <span class="line"></span>
+      <h3>Solo necesitas estos 4 datos</h3>
+      <span class="line"></span>
+     </div>
+
+     <div class="grid-4">
+      <article class="data-card">
+       <span class="data-icon blue"><i class="fa-solid fa-building"></i></span>
+       <span class="data-num">1 <small>Obligatorio</small></span>
+       <h4>Nombre o<br />Razón Social</h4>
+       <p>Nombre completo o razón social tal como aparece en el RUT.</p>
+       <span class="data-example"
+        ><i class="fa-solid fa-check"></i> Ej: Juan Pérez SAS</span
+       >
+      </article>
+
+      <article class="data-card">
+       <span class="data-icon violet"><i class="fa-solid fa-id-card"></i></span>
+       <span class="data-num">2 <small>Obligatorio</small></span>
+       <h4>Cédula o NIT</h4>
+       <p>Documento del receptor. Con o sin dígito de verificación.</p>
+       <span class="data-example"
+        ><i class="fa-solid fa-check"></i> Ej: 900.123.456-1</span
+       >
+      </article>
+
+      <article class="data-card">
+       <span class="data-icon amber"><i class="fa-solid fa-envelope"></i></span>
+       <span class="data-num">3 <small>Obligatorio</small></span>
+       <h4>Correo Electrónico</h4>
+       <p>Gmail, Outlook u otro. Allí llegará la notificación DIAN.</p>
+       <span class="data-example"
+        ><i class="fa-solid fa-check"></i> Ej: cliente@correo.com</span
+       >
+      </article>
+
+      <article class="data-card featured">
+       <span class="badge">CLAVE</span>
+       <span class="data-icon emerald"
+        ><i class="fa-solid fa-dollar-sign"></i
+       ></span>
+       <span class="data-num emerald">4 <small>Obligatorio</small></span>
+       <h4>Valor monetario<br />a facturar</h4>
+       <p>Monto total con impuestos incluidos. Sin redondeos.</p>
+       <span class="data-example"
+        ><i class="fa-solid fa-check"></i> Ej: $ 2.450.000</span
+       >
+      </article>
+     </div>
+
+     <p class="tip">
+      <i class="fa-solid fa-lightbulb"></i> Tip: envíalos en un solo mensaje
+      separados por comas o saltos de línea.
+     </p>
+
+     <div class="deliverables">
+      <div class="deliverables-head">
+       <h3>
+        <span class="deliv-icon"><i class="fa-solid fa-box-open"></i></span>
+        Entregables automáticos al instante
+       </h3>
+       <p>
+        Todo lo que necesitas, directo en el chat. Listo para descargar y
+        archivar.
+       </p>
+       <span class="deliv-badge"
+        ><i class="fa-solid fa-bolt"></i> ENTREGA &lt; 5s</span
+       >
+      </div>
+      <div class="deliverables-grid">
+       <article class="deliv-card">
+        <span class="deliv-ic dark"
+         ><i class="fa-solid fa-fingerprint"></i
+        ></span>
+        <h4>Código CUFE validado</h4>
+        <p>Identificador único DIAN verificable</p>
+        <code>CUFE: 8f3a...9c21</code>
+       </article>
+       <article class="deliv-card">
+        <span class="deliv-ic red"><i class="fa-solid fa-file-pdf"></i></span>
+        <h4>Archivo XML legal</h4>
+        <p>Formato UBL 2.1 válido DIAN</p>
+        <span class="dl"
+         ><i class="fa-solid fa-download"></i> Descarga inmediata</span
+        >
+       </article>
+       <article class="deliv-card">
+        <span class="deliv-ic blue"><i class="fa-solid fa-file-code"></i></span>
+        <h4>PDF descargable</h4>
+        <p>Representación gráfica lista para imprimir</p>
+        <span class="dl"
+         ><i class="fa-solid fa-download"></i> Descarga inmediata</span
+        >
+       </article>
+       <article class="deliv-card">
+        <span class="deliv-ic dark"><i class="fa-solid fa-qrcode"></i></span>
+        <h4>Código QR de verificación</h4>
+        <p>Verificación rápida ante la DIAN</p>
+        <span class="qr-pill">QR • Escaneable</span>
+       </article>
+      </div>
+      <div class="deliv-svg" aria-hidden="true">
+       <svg viewBox="0 0 600 80" role="img" aria-label="QR abstracto">
+        <rect
+         x="0"
+         y="0"
+         width="600"
+         height="80"
+         rx="16"
+         fill="rgba(255,255,255,0.06)"
+         stroke="rgba(255,255,255,0.08)"
+        />
+        <g transform="translate(18 14)">
+         <rect width="52" height="52" rx="10" fill="#ffffff" />
+         <rect x="6" y="6" width="16" height="16" rx="3" fill="#0b0f19" />
+         <rect x="10" y="10" width="8" height="8" rx="1.5" fill="#fff" />
+         <rect x="12" y="12" width="4" height="4" fill="#0b0f19" />
+         <rect x="30" y="6" width="16" height="16" rx="3" fill="#0b0f19" />
+         <rect x="34" y="10" width="8" height="8" rx="1.5" fill="#fff" />
+         <rect x="36" y="12" width="4" height="4" fill="#0b0f19" />
+         <rect x="6" y="30" width="16" height="16" rx="3" fill="#0b0f19" />
+         <rect x="10" y="34" width="8" height="8" rx="1.5" fill="#fff" />
+         <rect x="12" y="36" width="4" height="4" fill="#0b0f19" />
+         <rect x="26" y="26" width="6" height="6" fill="#10b981" />
+         <rect x="34" y="30" width="12" height="4" fill="#0b0f19" />
+         <rect x="26" y="38" width="14" height="4" fill="#0b0f19" />
+        </g>
+        <text
+         x="90"
+         y="32"
+         fill="#ffffff"
+         font-size="13"
+         font-weight="800"
+         font-family="system-ui"
+        >
+         CUFE + QR + FIRMA DIGITAL CERTIFICADA
+        </text>
+        <text
+         x="90"
+         y="52"
+         fill="#9ca3af"
+         font-size="11"
+         font-family="system-ui"
+        >
+         Todo validado y listo para enviar a tu contador en un toque
+        </text>
+        <g transform="translate(460 22)">
+         <rect width="120" height="36" rx="12" fill="#10b981" />
+         <text
+          x="60"
+          y="23"
+          text-anchor="middle"
+          fill="#ffffff"
+          font-size="11"
+          font-weight="800"
+          font-family="system-ui"
+         >
+          ✓ CERTIFICADO
+         </text>
+        </g>
+       </svg>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- VENTAJAS -->
+   <section id="ventajas" class="section section-dark">
+    <div class="container">
+     <div class="section-head dark">
+      <span class="kicker dark"
+       ><i class="fa-solid fa-trophy"></i> Ventajas Competitivas</span
+      >
+      <h2>¿Por qué elegir <span class="text-emerald">FacturaBot AI</span>?</h2>
+      <p>Tres pilares que nos hacen diferentes. Sin letra pequeña.</p>
+     </div>
+
+     <div class="pillars">
+      <article class="pillar muted">
+       <span class="pillar-num">01 • RAPIDEZ EXTREMA</span>
+       <span class="pillar-icon grad"><i class="fa-solid fa-bolt"></i></span>
+       <h3>Emisión en segundos, sin plataformas engorrosas.</h3>
+       <p>
+        Emisión en <strong>segundos directamente en WhatsApp</strong>, sin
+        plataformas externas engorrosas, logins eternos o software contable
+        complejo.
+       </p>
+       <ul>
+        <li>
+         <i class="fa-solid fa-check"></i> Sin registro ni curva de aprendizaje
+        </li>
+        <li>
+         <i class="fa-solid fa-check"></i> Respuesta promedio: 2-4 segundos
+        </li>
+        <li>
+         <i class="fa-solid fa-check"></i> Disponible 24/7, incluso festivos
+        </li>
+       </ul>
+       <span class="pillar-foot"
+        ><i class="fa-solid fa-comment-dots"></i
+        ><span
+         ><strong>Solo WhatsApp</strong><small>Nada que instalar</small></span
+        ><code>2.3s avg</code></span
+       >
+      </article>
+
+      <article class="pillar light">
+       <span class="pillar-num dark">02 • SEGURIDAD TOTAL</span>
+       <span class="pillar-icon dark"
+        ><i class="fa-solid fa-shield-halved"></i
+       ></span>
+       <h3>Integración oficial con Matías API.</h3>
+       <p>
+        Integración oficial con <strong>Matías API</strong> para transmisión
+        directa ante la DIAN. <span class="emerald">Cero almacenamiento</span> o
+        venta de datos; comunicaciones con <strong>cifrado integral</strong>.
+       </p>
+       <ul>
+        <li>
+         <i class="fa-solid fa-check"></i> Transmisión oficial DIAN certificada
+        </li>
+        <li><i class="fa-solid fa-check"></i> No guardamos datos sensibles</li>
+        <li><i class="fa-solid fa-check"></i> Cifrado extremo a extremo</li>
+       </ul>
+       <span class="pillar-foot light"
+        ><span class="m-mark">M</span
+        ><span
+         ><strong>Matías API</strong><small>Proveedor oficial DIAN</small></span
+        ><small class="verified">VERIFICADO</small></span
+       >
+      </article>
+
+      <article class="pillar accent">
+       <span class="pillar-num white">03 • COMODIDAD TOTAL</span>
+       <span class="pillar-icon white"><i class="fa-solid fa-inbox"></i></span>
+       <h3>Recepción inmediata de CUFE, PDF y XML en el mismo chat.</h3>
+       <p>
+        Recepción inmediata de <strong>CUFE, PDF y XML</strong> en el mismo
+        chat, listos para remitir o archivar. Sin correos perdidos ni descargas
+        complicadas.
+       </p>
+       <ul>
+        <li><i class="fa-solid fa-check"></i> Entrega directa en WhatsApp</li>
+        <li>
+         <i class="fa-solid fa-check"></i> Listo para reenviar al contador
+        </li>
+        <li><i class="fa-solid fa-check"></i> Archivos válidos de por vida</li>
+       </ul>
+       <span class="pillar-foot white"
+        ><i class="fa-solid fa-file-pdf"></i
+        ><i class="fa-solid fa-file-code"></i><i class="fa-solid fa-qrcode"></i
+        ><span><strong>3 archivos + CUFE</strong></span
+        ><i class="fa-solid fa-download dl-icon"></i
+       ></span>
+      </article>
+     </div>
+
+     <div class="compare-bar">
+      <span class="compare-left"
+       ><i class="fa-solid fa-scale-balanced"></i
+       ><span
+        ><strong>vs. Plataformas tradicionales</strong
+        ><small
+         >Sin mensualidades ocultas • Sin intermediarios • Sin esperas</small
+        ></span
+       ></span
+      >
+      <span class="compare-right"
+       ><small class="strike"><i class="fa-solid fa-xmark"></i> 5-15 min</small
+       ><small class="ok"><i class="fa-solid fa-check"></i> 2-4 segundos</small
+       ><span class="tag">10x más rápido</span></span
+      >
+     </div>
+    </div>
+   </section>
+
+   <!-- ASISTENTE -->
+   <section id="asistente" class="section section-light">
+    <div class="container">
+     <div class="section-head">
+      <span class="kicker violet"
+       ><i class="fa-solid fa-wand-magic-sparkles"></i> Potenciado por Gemini
+       AI</span
+      >
+      <h2>Habla con nuestro <span class="text-violet">Asistente IA</span></h2>
+      <p>
+       Resuelve tus dudas al instante. Entrenado exclusivamente en FacturaBot
+       AI, DIAN y Matías API.
+      </p>
+     </div>
+
+     <div
+      class="chat-window"
+      role="region"
+      aria-label="Asistente FacturaBot IA"
+     >
+      <div class="chat-header">
+       <span class="chat-avatar"><i class="fa-solid fa-robot"></i></span>
+       <span class="chat-title">
+        <strong
+         >FacturaBot IA <span class="chip">GEMINI 2.5 FLASH-LITE</span></strong
+        >
+        <small><span class="dot"></span> En línea • Responde en &lt;3s</small>
+       </span>
+       <span class="chat-actions">
+        <span class="chip ghost"
+         ><i class="fa-solid fa-shield-halved"></i> Solo temas FacturaBot</span
+        >
+        <button class="icon-btn" id="chat-clear" aria-label="Limpiar chat">
+         <i class="fa-solid fa-trash-can"></i>
+        </button>
+       </span>
+      </div>
+
+      <div class="suggestions">
+       <small><i class="fa-solid fa-lightbulb"></i> Prueba:</small>
+       <button
+        class="suggestion"
+        data-q="¿Qué 4 datos necesitas para facturar?"
+       >
+        ¿Qué datos necesitas?
+       </button>
+       <button class="suggestion" data-q="¿Qué es el CUFE y para qué sirve?">
+        ¿Qué es el CUFE?
+       </button>
+       <button
+        class="suggestion"
+        data-q="¿Es seguro? ¿Cómo funciona Matías API con la DIAN?"
+       >
+        ¿Es seguro?
+       </button>
+       <button
+        class="suggestion"
+        data-q="¿Cuánto demora la factura y qué recibo?"
+       >
+        ¿Cuánto demora?
+       </button>
+      </div>
+
+      <div class="chat-messages" id="chat-messages" aria-live="polite">
+       <div class="message bot">
+        <span class="msg-avatar"><i class="fa-solid fa-robot"></i></span>
+        <div class="bubble">
+         <p>
+          Estimado usuario, le damos la bienvenida al Centro de Orientación y
+          Soporte de FacturaBot AI. Soy su asistente virtual informativo, creado
+          con el propósito exclusivo de atender sus inquietudes sobre el
+          funcionamiento, normatividad y ventajas de nuestra solución de
+          facturación electrónica. ¿En qué temática o duda podemos asesorarle el
+          día de hoy?
+         </p>
+        </div>
+       </div>
+      </div>
+
+      <div class="typing" id="typing-indicator" hidden>
+       <span class="msg-avatar"><i class="fa-solid fa-robot"></i></span>
+       <div class="bubble typing-bubble">
+        <span class="typing-dot"></span><span class="typing-dot"></span
+        ><span class="typing-dot"></span>
+        <small>FacturaBot está escribiendo...</small>
+       </div>
+      </div>
+
+      <div class="chat-input-area">
+       <div class="input-wrap">
+        <input
+         id="chat-input"
+         type="text"
+         placeholder="Escribe tu duda sobre FacturaBot AI..."
+         maxlength="500"
+         autocomplete="off"
+         aria-label="Escribe tu duda"
+        />
+        <span class="char-count"><span id="char-count">0</span>/500</span>
+       </div>
+       <button
+        id="chat-send"
+        class="btn btn-dark btn-icon"
+        aria-label="Enviar mensaje"
+       >
+        <i class="fa-solid fa-paper-plane"></i>
+       </button>
+      </div>
+
+      <div class="chat-foot">
+       <small
+        ><i class="fa-solid fa-lock"></i> Tus preguntas no se almacenan •
+        Respuestas solo sobre FacturaBot AI</small
+       >
+       <small
+        ><i class="fa-solid fa-bolt"></i> Gemini 2.5 Flash-Lite •
+        <span id="chat-status">Listo</span></small
+       >
+      </div>
+
+      <div class="chat-error" id="chat-error" hidden role="alert">
+       <span id="chat-error-text"></span>
+      </div>
+     </div>
+
+     <div class="notice">
+      <i class="fa-solid fa-shield-halved"></i>
+      <p>
+       <strong>Conexión segura:</strong> Tu consulta viaja cifrada a nuestro
+       backend proxy (<code>/api/chat</code>) que custodia la API Key de Gemini
+       en <code>.env</code>. Nunca se expone en el navegador. Modelo activo
+       <strong>gemini-2.5-flash-lite</strong> vía <code>GEMINI_MODEL</code>.
+      </p>
+     </div>
+    </div>
+   </section>
+
+   <!-- CONTACTO -->
+   <section id="contacto" class="section section-light">
+    <div class="container">
+     <div class="section-head">
+      <span class="kicker emerald"
+       ><i class="fa-solid fa-headset"></i> Soporte Humano</span
+      >
+      <h2>Estamos a un mensaje de distancia</h2>
+      <p>Elige tu canal favorito. Respondemos en minutos, no en días.</p>
+     </div>
+
+     <div class="contact-grid">
+      <article class="contact-card primary">
+       <div class="contact-head">
+        <span class="c-icon"><i class="fa-solid fa-star"></i></span>
+        <span>
+         <strong>Canales Principales</strong>
+         <small>Respuesta prioritaria • Lunes a Domingo</small>
+        </span>
+        <span class="c-badge">RECOMENDADO</span>
+       </div>
+
+       <a
+        href="https://wa.me/573245516478"
+        target="_blank"
+        rel="noopener"
+        class="contact-link"
+       >
+        <span class="c-avatar wa"
+         ><i class="fa-solid fa-comment-dots"></i
+        ></span>
+        <span class="c-text">
+         <small><i class="fa-solid fa-bolt"></i> WhatsApp Directo</small>
+         <strong>+57 324 551 6478</strong>
+         <span>Toca para chatear al instante • Respuesta &lt; 5 min</span>
+        </span>
+        <span class="c-arrow"
+         ><i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></span>
+       </a>
+
+       <a
+        href="mailto:juanpablopre06@gmail.com?subject=Consulta%20FacturaBot%20AI"
+        class="contact-link ghost"
+       >
+        <span class="c-avatar"><i class="fa-solid fa-envelope"></i></span>
+        <span class="c-text">
+         <small>Correo Electrónico</small>
+         <strong>juanpablopre06@gmail.com</strong>
+         <span>Para consultas formales y soporte</span>
+        </span>
+        <span class="c-arrow"
+         ><i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></span>
+       </a>
+
+       <small class="c-foot"
+        ><i class="fa-solid fa-clock"></i> Horario: 7am - 9pm (COT) • Fuera de
+        horario: respuesta al día siguiente</small
+       >
+      </article>
+
+      <article class="contact-card secondary">
+       <div class="contact-head">
+        <span class="c-icon muted"><i class="fa-solid fa-life-ring"></i></span>
+        <span>
+         <strong>Canales de Soporte Secundario</strong>
+         <small>Alternativos si el principal está ocupado</small>
+        </span>
+        <span class="c-badge muted">RESPALDO</span>
+       </div>
+
+       <a
+        href="https://wa.me/57324225216"
+        target="_blank"
+        rel="noopener"
+        class="contact-link"
+       >
+        <span class="c-avatar dark"
+         ><i class="fa-solid fa-comment-dots"></i
+        ></span>
+        <span class="c-text">
+         <small>WhatsApp de Soporte</small>
+         <strong>+57 324 225 216</strong>
+         <span>Canal secundario • Mismo servicio</span>
+        </span>
+        <span class="c-arrow"
+         ><i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></span>
+       </a>
+
+       <a
+        href="mailto:tyzacrack81@gmail.com?subject=Consulta%20FacturaBot%20AI%20-%20Respaldo"
+        class="contact-link"
+       >
+        <span class="c-avatar muted"><i class="fa-solid fa-envelope"></i></span>
+        <span class="c-text">
+         <small>Correo Secundario</small>
+         <strong>tyzacrack81@gmail.com</strong>
+         <span>Respaldo técnico y comercial</span>
+        </span>
+        <span class="c-arrow"
+         ><i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></span>
+       </a>
+
+       <div class="mini-stats">
+        <span
+         ><i class="fa-solid fa-clock"></i><strong>&lt; 30 min</strong
+         ><small>Respuesta</small></span
+        >
+        <span
+         ><i class="fa-solid fa-shield-halved"></i><strong>100%</strong
+         ><small>Seguro</small></span
+        >
+        <span
+         ><i class="fa-solid fa-headset"></i><strong>Humano</strong
+         ><small>Real</small></span
+        >
+       </div>
+      </article>
+     </div>
+
+     <div class="cta-banner">
+      <span class="cta-icon"><i class="fa-solid fa-comments"></i></span>
+      <span class="cta-text"
+       ><strong>¿Listo para facturar?</strong
+       ><small
+        >Envía tus 4 datos por WhatsApp y recibe tu factura en segundos.</small
+       ></span
+      >
+      <a
+       href="https://wa.me/573245516478?text=Hola%20FacturaBot%20IA%20quiero%20generar%20mi%20factura%20electronica"
+       target="_blank"
+       rel="noopener"
+       class="btn btn-dark"
+      >
+       <i class="fa-solid fa-comment-dots"></i> Chatear ahora
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+
+  <footer class="footer">
+   <div class="container footer-grid">
+    <div class="footer-brand">
+     <a href="#inicio" class="brand">
+      <span class="brand-mark"><i class="fa-solid fa-robot"></i></span>
+      <span class="brand-text">FacturaBot<span> AI</span></span>
+      <span class="brand-badge">OFICIAL DIAN</span>
+     </a>
+     <p>
+      Plataforma colombiana de facturación electrónica integrada con
+      <strong>Matías API</strong>. Emitimos facturas válidas ante la DIAN en
+      segundos, directo por WhatsApp. Sin fricción, sin instalaciones.
+     </p>
+     <span class="footer-pills">
+      <small><i class="fa-solid fa-shield-halved"></i> Cumplimiento DIAN</small>
+      <small><i class="fa-solid fa-lock"></i> Cifrado integral</small>
+      <small><i class="fa-solid fa-bolt"></i> Matías API</small>
+     </span>
+    </div>
+    <div class="footer-col">
+     <h4>Navegación</h4>
+     <a href="#inicio">Inicio</a>
+     <a href="#funcionamiento">Funcionamiento</a>
+     <a href="#ventajas">Ventajas</a>
+     <a href="#asistente">Asistente IA</a>
+     <a href="#contacto">Contacto</a>
+    </div>
+    <div class="footer-col">
+     <h4>Contacto Directo</h4>
+     <a href="https://wa.me/573245516478" target="_blank" rel="noopener"
+      ><span class="f-icon wa"><i class="fa-solid fa-comment-dots"></i></span>
+      +57 324 551 6478 <span class="tiny">PRINCIPAL</span></a
+     >
+     <a href="mailto:juanpablopre06@gmail.com"
+      ><span class="f-icon"><i class="fa-solid fa-envelope"></i></span>
+      juanpablopre06@gmail.com</a
+     >
+     <a href="https://wa.me/57324225216" target="_blank" rel="noopener"
+      ><span class="f-icon muted"
+       ><i class="fa-solid fa-comment-dots"></i
+      ></span>
+      +57 324 225 216</a
+     >
+     <a href="mailto:tyzacrack81@gmail.com"
+      ><span class="f-icon muted"><i class="fa-solid fa-envelope"></i></span>
+      tyzacrack81@gmail.com</a
+     >
+    </div>
+   </div>
+   <div class="container footer-bottom">
+    <small
+     >© 2026 FacturaBot AI — Todos los derechos reservados. No somos la DIAN. El
+     cumplimiento fiscal es responsabilidad del emisor. Tus datos se transmiten
+     de forma cifrada y no se almacenan ni se venden. <br />
+     <strong>Aviso de protección de datos:</strong> Información tratada bajo
+     principios de confidencialidad y cifrado integral.</small
+    >
+    <span class="footer-tag"
+     ><i class="fa-solid fa-building-columns"></i> Cumplimiento legal fiscal •
+     Colombia</span
+    >
+   </div>
+  </footer>
+
+  <a
+   href="https://wa.me/573245516478?text=Hola%20FacturaBot%20IA%20quiero%20generar%20mi%20factura%20electronica"
+   target="_blank"
+   rel="noopener"
+   class="fab"
+   id="btn-whatsapp"
+   aria-label="Abrir WhatsApp"
+  >
+   <i class="fa-solid fa-comment-dots"></i>
+   <span class="fab-tooltip"
+    ><span class="dot"></span> Chatea con FacturaBot</span
+   >
+  </a>
+
+<!-- Modal Superpuesto de FAQ -->
+<div id="faq-modal-overlay" class="faq-overlay">
+  <div class="faq-modal-card">
+    <div class="faq-header">
+      <div class="faq-header-title">
+        <i class="fa-solid fa-store text-emerald"></i>
+        <h3>Preguntas Frecuentes — FacturaBot AI</h3>
+      </div>
+      <button id="btn-close-faq" class="faq-close-btn" aria-label="Cerrar ventana">&times;</button>
+    </div>
+
+    <div class="faq-body">
+      <p class="faq-intro">Todo lo que necesitas saber antes de contratar y empezar a facturar con nosotros.</p>
+
+      <div class="faq-accordion">
+        <!-- Pregunta 1 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span>¿Cómo puedo adquirir o contratar FacturaBot AI?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>Solo debes pulsar el botón de WhatsApp o contactar a nuestros asesores. Te solicitamos los datos de tu negocio, vinculamos tu cuenta a Matías API para la DIAN y en menos de 10 minutos tu bot queda habilitado para facturar.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span>¿Cuánto cuesta la suscripción y qué planes manejan?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>Contamos con planes mensuales adaptados a independientes, pequeños comercios y empresas con alto volumen. Nuestras tarifas son hasta un 70% más económicas que un software contable tradicional. Escríbenos a WhatsApp para darte la cotización exacta según tu volumen.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span>¿Qué métodos de pago aceptan para contratar?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>Aceptamos pagos directos mediante Nequi, Daviplata, transferencias Bancolombia y pasarela PSE/tarjetas de crédito nacionales.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span>¿Hay cláusulas de permanencia mínima obligatoria?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>No. No exigimos contratos forzosos ni cláusulas de amarre. Pagas mes a mes tu suscripción y puedes pausar o cancelar el servicio en cualquier momento sin penalizaciones.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span>¿Qué garantía tengo de que las facturas son legales ante la DIAN?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>Cada factura generada se procesa a través de Matías API, emitiendo el código CUFE oficial, la firma digital y el archivo XML validado en los servidores de la DIAN en tiempo real, respaldado con el PDF legal en tu chat.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span>¿Qué soporte técnico recibo después de comprar?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>Recibes atención prioritaria y directa vía WhatsApp para resolver dudas tributarias, configuración de numeración DIAN y soporte de disponibilidad continua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-footer">
+      <span>¿Tienes una consulta puntual?</span>
+      <a href="https://wa.me/573245516478" target="_blank" class="btn-faq-contact">
+        <i class="fa-brands fa-whatsapp"></i> Hablar con Ventas
+      </a>
+    </div>
+  </div>
+</div>
+  <!-- Aliases para compatibilidad -->
+  <div id="faq-overlay" class="faq-overlay" hidden aria-hidden="true"></div>
+  <div id="faq-modal" class="faq-modal" hidden aria-hidden="true"></div>
+  <div id="support-modal" hidden aria-hidden="true"></div>
+  <div id="support-modal-overlay" hidden aria-hidden="true"></div>
+  <div id="faq-container" hidden aria-hidden="true"></div>
+  <button id="faq-close" hidden aria-hidden="true"></button>
+  <button id="faq-close-2" hidden aria-hidden="true"></button>
+  <button id="support-close" hidden aria-hidden="true"></button>
+  <div id="faq-messages" hidden aria-hidden="true"></div>
+  <div id="faq-input" hidden aria-hidden="true"></div>
+  <div id="faq-send" hidden aria-hidden="true"></div>
+</body></body>
+</html>
+
+
+
+
